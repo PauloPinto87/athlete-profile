@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* @font-face {
+    font-family: 'Tungstein';
+    src: url('../fonts/Tungsten.ttf') format(truetype);
+    font-weight: normal;
+    font-size: normal;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    
+}
+
+i#burger {
+    background-color: rgb(29, 29, 29);
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav {
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+    background-color: rgba(29, 29, 29, 0.514);
+    text-align: center;
+    margin: 10px 0px;
+    padding: 5px;
+    display: block;
+}
+
+i#burger:hover, li:hover, a:hover{
+    background-color: white;
+    color: black;
+}
+
+main {
+    background-image: url(../imagens/background_home.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+}
