@@ -13,7 +13,7 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: black;
-    color: white;
+    color: rgb(112, 112, 112);
 }
 
 header {
@@ -55,4 +55,22 @@ main {
     height: 400px;
     margin: auto;
     border: 1px solid rgb(0, 0, 0);
+}
+
+footer {
+    align-self: end;
+    font-size: 1.8em;
+    text-align: end;
+}
+
+footer i {
+    color: rgba(128, 128, 128, 0.493);
+    margin: 10px;
+
+    
+
+}
+
+footer i:hover {
+    color: white;
 }
