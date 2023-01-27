@@ -25,11 +25,13 @@ body {
 
 header {
     color: rgb(197, 197, 197);
+
 }
 
 main > img {
-    max-width: 435px;
+    max-width: 450px;
     width: 100%;
+
 
 }
 
@@ -116,8 +118,7 @@ main {
     background-repeat: no-repeat;
     background-position: top center; */
     width: 90vw;
-    height: 65vh;
-    margin: auto;
+    mrgin: auto;
 
 }
 
