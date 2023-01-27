@@ -108,8 +108,9 @@ main {
     background-image: url(../imagens/background_home.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: top center;
     width: 90vw;
-    height: 580px;
+    height: 65vh;
     margin: auto;
 
 }
