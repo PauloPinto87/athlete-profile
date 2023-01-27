@@ -27,6 +27,11 @@ header {
     color: rgb(197, 197, 197);
 }
 
+main > img {
+    width: 85vw;
+
+}
+
 i#burger {
     background-color: rgb(70, 70, 70);
     display: block;
@@ -105,10 +110,10 @@ i#burger:hover, li:hover, a:hover{
 
 
 main {
-    background-image: url(../imagens/background_home.jpg);
+/*     background-image: url(../imagens/background_home.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top center; */
     width: 90vw;
     height: 65vh;
     margin: auto;
