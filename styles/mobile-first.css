@@ -68,24 +68,47 @@ i#burger:hover, li:hover, a:hover{
 
 }
 
-main div {
+
+.painel {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    margin: 5px;
+    margin: 8px;
     border-radius: 5px;
     background-image: linear-gradient( rgb(226, 226, 226), rgb(39, 39, 39));
     box-shadow: 0px 0px 20px 1px rgb(0, 37, 2);
     height: 80px;
+    width: 50%;
 }
 
-main div p {
-    line-height: 80px;
-    color: rgb(39, 39, 39);
+.sub-painel {
 
 }
-main div img {
-    width: 90px;
+
+.sub-painel-superior {
+    display: flex;
+    flex-direction: row;
 }
+
+.sub-painel-superior > p {
+    line-height: normal;
+    margin: 10px 2px;
+    text-shadow: 0.5px 0.5px white, -0.5px -0.5px  rgb(39, 39, 39);
+    color: rgb(32, 32, 32);
+}
+.sub-painel-superior > img {
+    height: 70px;
+}
+
+.sub-painel-inferior {
+    color: rgb(175, 174, 174);
+    width: 100%;
+    background-image: linear-gradient(rgb(17, 17, 17) 50%, rgb(34, 34, 34));
+    border-radius: 0px 0px 10px 10px;
+
+}
+
 
 main {
     background-image: url(../imagens/background_home.jpg);
@@ -132,5 +155,4 @@ footer div{
 
 footer small {
     font-size: .4em;
-
 }
