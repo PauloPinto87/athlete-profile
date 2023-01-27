@@ -24,16 +24,11 @@ body {
 }
 
 header {
-    
+    color: rgb(197, 197, 197);
 }
 
-
-
-
-
-
 i#burger {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(70, 70, 70);
     display: block;
     text-align: center;
     cursor: pointer;
@@ -47,12 +42,14 @@ nav {
 
 header a {
     text-decoration: none;
-    background-color: rgba(29, 29, 29, 0.514);
+    background-color:  rgb(70, 70, 70);
     text-align: center;
     margin: 10px 0px;
     padding: 5px;
     display: block;
+    color: rgb(197, 197, 197);
 }
+
 
 i#burger:hover, li:hover, a:hover{
     background-color: white;
@@ -64,8 +61,6 @@ i#burger:hover, li:hover, a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: end;
-
-
 }
 
 
@@ -79,23 +74,22 @@ i#burger:hover, li:hover, a:hover{
     background-image: linear-gradient( rgb(226, 226, 226), rgb(39, 39, 39));
     box-shadow: 0px 0px 20px 1px rgb(0, 37, 2);
     height: 80px;
-    width: 50%;
+    width: 80%;
 }
 
-.sub-painel {
-
-}
 
 .sub-painel-superior {
     display: flex;
     flex-direction: row;
+    font-weight: bold;
+    justify-content: space-evenly;
+    
 }
 
 .sub-painel-superior > p {
-    line-height: normal;
-    margin: 10px 2px;
     text-shadow: 0.5px 0.5px white, -0.5px -0.5px  rgb(39, 39, 39);
     color: rgb(32, 32, 32);
+    margin-top: 30px;
 }
 .sub-painel-superior > img {
     height: 70px;
@@ -114,16 +108,12 @@ main {
     background-image: url(../imagens/background_home.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 90vw;
     height: 580px;
     margin: auto;
 
 }
 
-main a {
-    width: 90%;
-
-}
 
 footer {
     align-self: end;
@@ -155,4 +145,8 @@ footer div{
 
 footer small {
     font-size: .4em;
+}
+
+a {
+    color: rgb(128, 128, 128);
 }
