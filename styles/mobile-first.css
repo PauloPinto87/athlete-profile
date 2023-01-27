@@ -91,7 +91,7 @@ i#burger:hover, li:hover, a:hover{
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     
 }
