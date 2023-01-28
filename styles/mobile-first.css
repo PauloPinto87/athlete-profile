@@ -119,36 +119,40 @@ main {
 
 
 footer {
-    align-self: end;
+    display: flex;
+    flex-direction: column;
     font-size: 1.8em;
+}
 
+.midias_sociais {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.midias_sociais > p {
+    
 }
 
 footer i {
     color: rgba(128, 128, 128, 0.493);
-    margin: 10px;
 }
 
 footer i:hover {
     color: white;
-    
 }
 
 footer img {
     width: 80px;
-    border: 1px solid white;
-    display: none;
 }
 
-footer div{
-    width: 100%;
+footer .direitos_autorais{
     text-align: center;
-}
-
-
-footer small {
     font-size: .4em;
 }
+
+
 
 a {
     color: rgb(128, 128, 128);
