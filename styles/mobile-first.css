@@ -131,8 +131,15 @@ footer {
     align-items: center;
 }
 
-.midias_sociais > p {
-    
+.redes_sociais_footer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+
+.redes_sociais_footer i {
+    margin: 5px;
 }
 
 footer i {
@@ -151,7 +158,6 @@ footer .direitos_autorais{
     text-align: center;
     font-size: .4em;
 }
-
 
 
 a {
