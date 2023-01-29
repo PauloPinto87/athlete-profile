@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
-body {
-    background-color: aqua;
+
+
+main > .img-principal {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+
 }

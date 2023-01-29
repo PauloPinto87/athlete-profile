@@ -28,6 +28,7 @@ header {
 main > .img-principal {
     max-width: 450px;
     width: 100%;
+    margin: auto;
 
 }
 
