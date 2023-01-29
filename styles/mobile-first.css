@@ -66,7 +66,7 @@ i#burger:hover, li:hover, a:hover{
 .painel {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: auto;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -83,7 +83,8 @@ i#burger:hover, li:hover, a:hover{
     flex-direction: row;
     font-weight: bold;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 5px;
     
 }
 
