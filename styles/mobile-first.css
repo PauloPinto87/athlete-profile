@@ -83,8 +83,9 @@ i#burger:hover, li:hover, a:hover{
     flex-direction: row;
     font-weight: bold;
     align-items: center;
-    justify-content: space-around;
-    padding: 5px;
+    justify-content: center;
+    gap: 5px;
+    text-align: end;
     
 }
 
@@ -110,7 +111,7 @@ i#burger:hover, li:hover, a:hover{
 }
 
 .painel-3 img {
-    height: 50px;
+    height: 40px;
 }
 
 
