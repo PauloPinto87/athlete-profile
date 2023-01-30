@@ -25,6 +25,10 @@ header {
     color: rgb(197, 197, 197);
 }
 
+main {
+    width: 100vw;
+}
+
 main > .img-principal {
     max-width: 450px;
     width: 100%;
@@ -54,7 +58,7 @@ header a {
 }
 
 
-i#burger:hover, li:hover, a:hover{
+i#burger:hover, header a:hover{
     background-color: white;
     color: black;
 }
@@ -73,8 +77,7 @@ i#burger:hover, li:hover, a:hover{
     border-radius: 5px;
     background-image: linear-gradient( rgb(226, 226, 226), rgb(39, 39, 39));
     box-shadow: 0px 0px 20px 1px rgb(0, 37, 2);
-    max-height: 80px;
-    width: 80%;
+
 }
 
 
@@ -87,7 +90,8 @@ i#burger:hover, li:hover, a:hover{
     justify-content: center;
     gap: 5px;
     text-align: end;
-    
+    max-height: 100px;
+
 }
 
 .sub-painel-superior > p {
@@ -96,7 +100,7 @@ i#burger:hover, li:hover, a:hover{
 
 }
 .sub-painel-superior > img {
-    height: 70px;
+    height: 120px;
 }
 
 .sub-painel-inferior {
@@ -107,13 +111,11 @@ i#burger:hover, li:hover, a:hover{
     text-align: center;
 }
 
-.painel-3 {
-    height: 100px;
+
+#oliver-fundation {
+    height: 50px;
 }
 
-.painel-3 img {
-    height: 40px;
-}
 
 
 main {
@@ -142,21 +144,14 @@ footer {
 
 .redes_sociais_footer {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+
     flex-direction: row;
 
 }
 
 .redes_sociais_footer i {
-    margin: 5px;
-}
-
-footer i {
-    color: rgba(128, 128, 128, 0.493);
-}
-
-footer i:hover {
-    color: white;
+    margin-left: 5px;
 }
 
 footer img {
@@ -169,6 +164,10 @@ footer .direitos_autorais{
 }
 
 
-a {
+.redes_sociais_footer > a {
     color: rgb(128, 128, 128);
+}
+
+.redes_sociais_footer > a:hover{
+    color: white;
 }
