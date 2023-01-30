@@ -91,6 +91,7 @@ i#burger:hover, header a:hover{
     gap: 5px;
     text-align: end;
     height: 70px;
+    padding: 0px 5px 0px 5px;
 }
 
 .sub-painel-superior > p {
