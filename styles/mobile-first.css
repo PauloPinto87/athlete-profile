@@ -96,7 +96,7 @@ i#burger:hover, header a:hover{
 .sub-painel-superior > p {
     text-shadow: 0.5px 0.5px white, -0.5px -0.5px  rgb(39, 39, 39);
     color: rgb(32, 32, 32);
-    padding: 0px 10px;
+    padding-top: 10px;
     text-align: center;
 
 }
