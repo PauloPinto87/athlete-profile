@@ -9,14 +9,33 @@
     text-decoration: none;
 }
 
-main {
-    width: 100vw;
-    background-color: aqua;
-}
 
 main > .img-principal {
-    max-width: 700px;
+    max-width: 720px;
     width: 100%;
     margin: auto;
+}
 
+main {
+    background-color: aqua;
+    width: 100%;
+}
+
+.painel {
+    font-size: 1.1em;
+}
+
+.itens-menu {
+    background-color: black;
+}
+
+
+
+.sub-painel-superior img{
+    height: 60%;
+
+}
+
+#oliver-fundation {
+    height: 70px;
 }

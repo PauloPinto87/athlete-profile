@@ -46,6 +46,7 @@ i#burger {
 
 nav {
     display: none;
+    transition: all 2s;
 }
 
 header a {
@@ -99,10 +100,10 @@ i#burger:hover, header a:hover{
     color: rgb(32, 32, 32);
     padding-top: 5px;
     text-align: center;
-
+    font-size: 1.1em;
 }
 .sub-painel-superior > img {
-    height: 80px;
+    height: 70px;
 }
 
 .sub-painel-inferior {
@@ -117,7 +118,6 @@ i#burger:hover, header a:hover{
 #oliver-fundation {
     height: 50px;
 }
-
 
 
 main {
