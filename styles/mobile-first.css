@@ -90,7 +90,8 @@ i#burger:hover, header a:hover{
     justify-content: center;
     gap: 5px;
     text-align: end;
-    max-height: 100px;
+    max-height: 70px;
+    height: 70px;
 
 }
 
@@ -100,7 +101,7 @@ i#burger:hover, header a:hover{
 
 }
 .sub-painel-superior > img {
-    height: 120px;
+    height: 80px;
 }
 
 .sub-painel-inferior {
